@@ -1,0 +1,34 @@
+Mordor
+
+Mordor  is a procedurally generated 3D scene of a volcano. The application is designed and constructed utilising DirectX10 to demonstrate procedural generation, post-processing and an interactive camera.
+
+ The Mordor application consists of a number of elements:
+
+ñ	A section of terrain that forms into a volcano with a crater and lava flows over time: This terrain is created using a combination of procedural techniques to generate a height-map and to texture it. The user can reset the scene to generate a new volcano or choose to auto-complete the generation.
+
+ñ	An animated post-processing effect to simulate a heat haze: This effect is applied to the scene after the terrain is completely generated and the user can choose to toggle this effect on and off. 
+
+ñ	Particle effect systems to represent smoke plumes, spitting fire and falling ash: Particles are generated procedurally using the geometry shader.
+
+ñ	Textures generated using simplex noise on the GPU: The terrain is fully procedurally textured and the scene also includes a simple sky sphere with animated cloud texture. 
+
+ñ	Two different cameras: The user is able to switch between an automated camera circling the terrain and a free-moving camera which they can control using the keyboard and mouse.
+
+Controls
+
+ 
+P	Pause/unpause the programme	   
+R	Resets the scene	   
+C	Auto-completes the scene generation	   
+V	Changes the camera being used	   
+H	Toggles the heat haze post-processing effect on/off	   
+Mouse wheel	Zooms the camera in/out	   
+Arrow keys	Changes the yaw and pitch of camera two	   
+Left mouse button + mouse movement	Changes the yaw and pitch of camera two	   
+A	Moves camera two left	   
+D	Moves camera two right	   
+W	Moves camera two forward	   
+S	Moves camera two backward	   
+Z	Moves camera two up	   
+X	Moves camera two down	 
+
